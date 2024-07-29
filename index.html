@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        .aa {
+            margin-left: 19%;
+            margin-right: 19%;
+            width: 70%;
+            background-color: black;
+        }
+
+        .pp {
+            position: relative;
+            text-align: center;
+        }
+
+        .cc {
+            position: relative;
+            text-align: center;
+            color: rgb(232, 220, 220);
+
+        }
+
+        .ss {
+            padding: 40px;
+            display: flex;
+            background-color: rgb(222, 111, 161);
+        }
+        .container-fluid{
+            background-color: rgb(222, 111, 161); 
+        }
+        .yy{
+            background-color: rgb(196, 93, 160);
+        }
+
+        .bottom-left {
+            position: absolute;
+            top: 25%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            text-decoration-style: solid;
+
+            li:hover {
+                filter: blur(70px);
+                opacity: 0;
+            }
+
+            li:nth-child(1) {
+                animation-delay: 0.1s;
+            }
+
+            li:nth-child(2) {
+                animation-delay: 0.2s;
+            }
+
+            li:nth-child(3) {
+                animation-delay: 0.3s;
+            }
+
+            li:nth-child(4) {
+                animation-delay: 0.4s;
+            }
+
+            li:nth-child(5) {
+                animation-delay: 0.5s;
+            }
+
+            li:nth-child(6) {
+                animation-delay: 0.6s;
+            }
+
+            li:nth-child(7) {
+                animation-delay: 0.7s;
+
+            }
+        }
+
+        .qq {
+            background-color: rgb(200, 167, 231);
+        }
+
+
+
+        .youtube {
+            padding: 10%;
+            background-color: rgb(196, 93, 160);
+        }
+
+        .lk {
+            text-align: center;
+            padding: 3px;
+            background-color: rgb(169, 26, 88);
+            color: rgb(230, 237, 236);
+        }
+
+        .icon {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navebar end --><div class="yy">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://1000logos.net/wp-content/uploads/2020/09/Courage-The-Cowardly-Dog-Logo.png" class="aa"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://i.redd.it/l9v6yql8t3k21.png"
+                    class="aa" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://wallpapercave.com/wp/wp1925808.jpg" class="aa" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+    <!-- slider end -->
+<hr>
+    <div class="cc">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/018/974/045/large/sanjay-prabhu-0.jpg?1561472805"
+            alt=".." style="width:100%;">
+        <div class="bottom-left">
+            <h3><i>
+                    <ul>
+                        <li>Courage</li>
+                    </ul>
+                </i></h3>
+            <li> Courage the Cowardly Dog is an American comedy horror animated television series
+                created by John R. Dilworth for Cartoon Network that lasted from November 12, 1999 to November 22, 2002.
+                It
+                had 4 seasons, and a total of 52 episodes. Each episode lasts for about 22 minutes, with two segments in
+                most episodes (unless it is a two-part episode).<br> Its opening theme is titled "Courage the Cowardly
+                Dog" and
+                the ending theme is an instrumental version of the opening.
+                Its central plot revolves around a somewhat anthropomorphic pink dog named Courage who
+                lives with his owners, Muriel Bagge and Eustace Bagge, an elderly, married farming couple in the "Middle
+                of
+                Nowhere" (the fictional town of Nowhere, Kansas).
+                <br> Courage and his owners are frequently thrown into bizarre
+                misadventures, often involving the paranormal/supernatural and various villains.<br>
+                The show is known for its
+                surreal, often disquieting humor and bizarre plot twists. The series combines elements of comedy horror,
+                science fantasy, and drama.
+            </li>
+        </div>
+        <audio controls autoplay muted>
+            <source src="https://youtu.be/gIR0a7jryaw?feature=shared" type="audio/ogg">
+        </audio>
+    </div>
+
+
+
+    <div class="ss">
+        <h1><i>CREATORS</i></h1>
+        <div class="card" style="width: 18rem;margin: 5%;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/DillyDali2014.jpg/800px-DillyDali2014.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">John R. Dilworth</h5>
+                <hr>
+                <p><b><marK class="qq">Director</marK></b></p>
+                <p class="card-text">John Russell Dilworth (born February 14, 1963) is an American animator, actor,
+                    writer, director, storyboard artist, producer and the creator of the animated television series
+                    Courage the Cowardly Dog. His work has mainly appeared on PBS, CBS, Showtime, HBO, Fox, ABC, NBC,
+                    Arte, CBC Television, YTV, Teletoon, BBC Two, Cartoon Network, Nickelodeon, Comedy Central and MTV,
+                    among others.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;margin: 5%">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Marty_Grabstein.jpg/330px-Marty_Grabstein.jpg"
+                class="card-img-top" alt="...">
+
+            <div class="card-body">
+                <h5 class="card-title">Marty Grabstein</h5>
+                <hr>
+                <p><b><marK class="qq">Voice actor</marK></b></p>
+                <p class="card-text">Marty Grabstein is an American actor, best known for voicing the titular character
+                    in the Cartoon Network animated series Courage the Cowardly Dog.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;margin: 5%">
+            <img src="http://www.jodygray.com/images/jgawm.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Jody gray</h5>
+                <hr>
+                <p><b><marK class="qq">Music producer</marK></b></p>
+                <p class="card-text">Jody Gray is a composer that created much of the music for Courage the Cowardly
+                    Dog, along with Andy Ezrin. He also composed the music for Arthur's Missing Pal among other
+                    projects. He could be considered the American counterpart of Yoko Kanno.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <!-- card end --><hr>
+
+    <div class="youtube">
+        <h2>MOST POPULAR EPISODE</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pyEKOY1TIbU?si=Y-VsdLilFIYsLrtM"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bkzu-GEBS3s?si=DXJ3GOXxzgwYlTr1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <br>
+        <div class="pp">
+            <img src="https://i.kym-cdn.com/photos/images/original/001/615/341/b4a.gifv" alt=".." style="width:40%;">
+            <h2>Headquarters: Cahuenga Boulevard</h2>
+            <p>Cartoon Network Studios
+                <br>
+                American animation studio</p>
+            <p><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.648115633009!2d-118.35169002481966!3d34.12975721363437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2be275c304ae5%3A0xb6f251926f4aacbb!2sCahuenga%20Blvd%2C%20Los%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1722149436829!5m2!1sen!2sin"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+
+
+        <hr>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+
+        <footer>
+            <div class="lk">
+                <p><I> BY SARANGEE DHOTE</I></p>
+            </div>
+
+        </footer>
+        <div class="icon">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+            <h2>Login form</h2>
+            <form action="#">
+                <hr>
+                <i><label for=""> Enter email address</label>
+                <br>
+                <input type="email" id="email" >
+                <br>
+                <i><label for="">Enter your password</label>
+                <br>
+                <input type = "password" id="www" required>
+                <br><br>
+                <button onclick= "abc()">Submit</button>
+        
+                    <hr>
+        </div>
+</body>
+
+</html>
